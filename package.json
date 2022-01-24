@@ -1,0 +1,22 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "api demo for node js & express js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasnesakam/api-demos.git"
+  },
+  "author": "ensar",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rasnesakam/api-demos/issues"
+  },
+  "homepage": "https://github.com/rasnesakam/api-demos#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
