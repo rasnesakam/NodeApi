@@ -1,2 +1,5 @@
 package-lock.json
 node_modules/
+
+# In big projects, you must hide your .env files for security reasons
+# .env
