@@ -9,7 +9,7 @@ const app = express();
 const mongodb = require('./mongodb');
 
 // Use UserController
-const userController = require('./user/UserController')
+const userController = require('./user/UserController');
 app.use('/api/users',userController);
 
 // export app for using by external files

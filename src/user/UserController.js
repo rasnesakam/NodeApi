@@ -11,7 +11,7 @@ router.use(bodyParser.json());
 var User = require('./User');
 
 // Create User
-router.route('/api/users').post(
+router.route('/').post(
     (req, res) => {
         User.create(
             {
@@ -31,7 +31,7 @@ router.route('/api/users').post(
 );
 
 // Get All Users
-router.route('/api/users').get(
+router.route('/').get(
     (req, res) => {
         User.find({}, (err, users) => {
         if (err) 
